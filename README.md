@@ -36,7 +36,8 @@ Unstuck autonomous rover from gravel etc.
 ```
 
 ## OTHER TODO
-Happiness and Sadness has link to fear and pain, these can be investigated as well.
+Happiness and Sadness has link to fear and pain, these can be investigated as well. 
+Will incorporating this to all robot senses would make a more human like machines?
 
 ## References
 ```
