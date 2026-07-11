@@ -35,6 +35,9 @@ Handcuffed robot arm (how to unhandcuf).
 Unstuck autonomous rover from gravel etc.
 ```
 
+## OTHER TODO
+Happiness and Sadness has link to fear and pain, these can be investigated as well.
+
 ## References
 ```
 https://medium.com/correll-lab/how-to-finetune-huggingfaces-smolvlm-dcbefc631a16
