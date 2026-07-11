@@ -7,14 +7,32 @@ Robot has predictable movement than in Humans. But humans dexterity outperforms 
 ## TODO
 Investigate Fear and Pain with dynamic weights for action completion.
 Fear and Pain retrains the model for efficient actions for survival training. This should be different than reinforced training like the following.
-
-# Dynamic retraining workflow
+```
+Models will incorporate concept of Death meaning final retrained model if actions unsuccessfull will all fall to unactionable output or nothingness.
+```
+## Dynamic retraining workflow without Fear and Pain
 Dynamic learning/retraining shall be incorporated only on the actions it is suppose to do.
 ```
 Robot only know path A to go to the Finish, Robot randomly try other path and successfully found path B.
 Memory - Path A
 Memory - Path A,B
 Robot weighs this paths and all succession of successful efficient path traversal is prioritized, Path B is still kept in memory as alternate option when path A is not possible anymore.
+```
+
+## Dynamic retraining workflow with Fear and Pain
+Dynamic learning/retraining shall be incorporated only on the actions it is suppose to do.
+```
+Robot only know path A to go to the Finish, Robot randomly try other path and successfully found path B. (Predators, dangerous paths and warning signs will be incorporated).
+Memory - Path A
+Memory - Path A,B
+Robot weighs this paths(efficiency, fear and pain levels) and all succession of successful path traversal based on the 3 weights are prioritized, Path B is still kept in memory as alternate option when path A is not possible anymore.
+```
+
+## Experiments
+```
+Make robot escape from a maze(with time difficulty).
+Handcuffed robot arm (how to unhandcuf).
+Unstuck autonomous rover from gravel etc.
 ```
 
 ## References
